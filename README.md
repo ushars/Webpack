@@ -40,7 +40,7 @@ $ npm run dev
 "scripts": {
     "build": "./node_modules/.bin/webpack --config ./build/webpack.dev.config.js,
     "dev": "webpack-dev-server --config ./build/webpack.dev.config.js"
-  },
+  }
 ```
 
 ​	整体配置更改为
@@ -49,7 +49,7 @@ $ npm run dev
 "scripts": {
     "build": "./node_modules/.bin/webpack,
     "dev": "webpack-dev-server --config ./build/webpack.dev.config.js"
-  },
+  }
 ```
 
 
